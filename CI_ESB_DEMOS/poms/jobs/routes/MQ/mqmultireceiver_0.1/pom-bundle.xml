@@ -256,12 +256,12 @@
     <dependency>
       <groupId>org.example.ci_esb_demos.code</groupId>
       <artifactId>routines</artifactId>
-      <version>7.1.1-SNAPSHOT</version>
+      <version>7.1.1</version>
     </dependency>
     <dependency>
       <groupId>org.example.ci_esb_demos.bean</groupId>
       <artifactId>beans</artifactId>
-      <version>7.1.1-SNAPSHOT</version>
+      <version>7.1.1</version>
     </dependency>
   </dependencies>
   <build>
