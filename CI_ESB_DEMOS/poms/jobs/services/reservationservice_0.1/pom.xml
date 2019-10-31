@@ -21,8 +21,8 @@
     <module>pom-feature.xml</module>
   </modules>
   <properties>
-    <cloud.publisher.skip>true</cloud.publisher.skip>
     <talend.project.name>CI_ESB_DEMOS</talend.project.name>
+    <cloud.publisher.skip>true</cloud.publisher.skip>
     <talend.job.id>_e4XwABBXEeGFz_xdEv1J-Q</talend.job.id>
     <talend.job.version>0.1</talend.job.version>
   </properties>

@@ -17,7 +17,7 @@
     <cloud.publisher.skip>false</cloud.publisher.skip>
     <talend.job.name>ReservationService</talend.job.name>
     <talend.job.id>_e4XwABBXEeGFz_xdEv1J-Q</talend.job.id>
-    <talend.product.version>7.1.1.20181026_1147</talend.product.version>
+    <talend.product.version>7.1.1.20191021_0953-patch</talend.product.version>
     <talend.job.version>0.1</talend.job.version>
     <talend.job.finalName>ReservationService-feature-0.1.0</talend.job.finalName>
   </properties>
