@@ -5,14 +5,14 @@
   <parent>
     <groupId>org.example.ci_esb_demos.route</groupId>
     <artifactId>SendToJMS-Kar</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.0-SNAPSHOT</version>
     <relativePath>/</relativePath>
   </parent>
   <groupId>org.example.ci_esb_demos.route</groupId>
   <artifactId>SendToJMS-feature</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>CI_ESB_DEMOS SendToJMS-0.1.0 (0.1,Routes) Feature</name>
+  <name>CI_ESB_DEMOS SendToJMS-0.1.0-SNAPSHOT (0.1,Routes) Feature</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
@@ -22,7 +22,7 @@
     <cloud.publisher.skip>false</cloud.publisher.skip>
     <talend.project.name.lowercase>ci_esb_demos</talend.project.name.lowercase>
     <talend.job.path>ci_esb_demos</talend.job.path>
-    <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
+    <project.distribution-management.repository.id>${project.distributionManagement.snapshotRepository.id}</project.distribution-management.repository.id>
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>CI_ESB_DEMOS</talend.project.name>
     <talend.product.version>7.1.1.20191021_0953-patch</talend.product.version>
@@ -40,7 +40,7 @@
     <talend.project.id>0</talend.project.id>
     <talend.job.folder>jmstohttp/</talend.job.folder>
     <talend.job.framework></talend.job.framework>
-    <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
+    <project.distribution-management.repository.url>${project.distributionManagement.snapshotRepository.url}</project.distribution-management.repository.url>
     <talend.job.type>Standard</talend.job.type>
   </properties>
   <build>
@@ -103,11 +103,11 @@
                   <file>${basedir}/src/main/bundle-resources/feature.xml</file>
                   <groupId>org.example.ci_esb_demos.route</groupId>
                   <artifactId>SendToJMS-feature</artifactId>
-                  <version>0.1.0</version>
+                  <version>0.1.0-SNAPSHOT</version>
                   <classifier>features</classifier>
                   <packaging>xml</packaging>
-                  <repositoryId>${project.distributionManagement.repository.id}</repositoryId>
-                  <url>${project.distributionManagement.repository.url}</url>
+                  <repositoryId>${project.distributionManagement.snapshotRepository.id}</repositoryId>
+                  <url>${project.distributionManagement.snapshotRepository.url}</url>
                 </configuration>
               </execution>
             </executions>

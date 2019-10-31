@@ -4,55 +4,48 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.example.ci_esb_demos</groupId>
   <artifactId>code.Master</artifactId>
-  <version>7.1.1</version>
+  <version>7.1.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>CI_ESB_DEMOS Codes Master</name>
   <url>http://www.talend.org/</url>
   <modules>
-    <module>code/routines</module>
-    <module>code/beans</module>
-    <module>jobs/services/crmservice_0.1</module>
-    <module>jobs/routes/ErrorHandler/routescopeerrorhandler_0.1</module>
-    <module>jobs/routes/JMStoHTTP/jmstohttp_0.1</module>
-    <module>jobs/routes/soaptorest_0.1</module>
-    <module>jobs/services/demoservice_0.1</module>
-    <module>jobs/routes/demorestroute_0.1</module>
-    <module>jobs/process/demorest_0.1</module>
-    <module>jobs/routes/simplerecipientlist_0.1</module>
-    <module>jobs/routes/serviceproxy_0.1</module>
-    <module>jobs/routes/simpleloadbalancer_0.1</module>
     <module>jobs/process/demorestconsumer_0.1</module>
-    <module>jobs/routes/contentbasedrouting_0.1</module>
-    <module>jobs/routes/demorestclientroute_0.1</module>
-    <module>jobs/services/reservationservice_0.1</module>
+    <module>jobs/process/demorest_0.1</module>
+    <module>jobs/process/demoserviceconsumer_0.1</module>
+    <module>jobs/process/firstdi_0.1</module>
+    <module>jobs/process/hello_0.1</module>
     <module>jobs/routes/MQ/mqmultireceiver_0.1</module>
     <module>jobs/routes/MQ/mqmultisender_0.1</module>
-    <module>jobs/routes/ErrorHandler/contextscopeerrorhandler_0.1</module>
-    <module>jobs/routes/resttosoap_0.1</module>
-    <module>jobs/routes/JMStoHTTP/sendtojms_0.1</module>
+    <module>jobs/routes/JMStoHTTP/jmstohttp_0.1</module>
     <module>jobs/routes/JMStoHTTP/receivefromjms_0.1</module>
-    <module>jobs/process/demoserviceconsumer_0.1</module>
-    <module>jobs/routes/vmspringdemo_0.1</module>
+    <module>jobs/routes/JMStoHTTP/sendtojms_0.1</module>
+    <module>jobs/routes/ErrorHandler/contextscopeerrorhandler_0.1</module>
+    <module>jobs/routes/ErrorHandler/routescopeerrorhandler_0.1</module>
+    <module>jobs/routes/contentbasedrouting_0.1</module>
+    <module>jobs/routes/copy_of_demoresourceroute_0.1</module>
+    <module>jobs/routes/demorestclientroute_0.1</module>
+    <module>jobs/routes/demorestroute_0.1</module>
     <module>jobs/routes/demoresourceroute_0.1</module>
     <module>jobs/routes/directsedademo_0.1</module>
     <module>jobs/routes/ms_demoresourceroute_0.1</module>
-    <module>jobs/process/firstdi_0.1</module>
-    <module>jobs/process/ReservationService/ReservationService/submitCarReservation/reservationservice_submitcarreservation_0.1</module>
-    <module>jobs/process/ReservationService/ReservationService/getConfirmationOfReservation/reservationservice_getconfirmationofreservation_0.1</module>
-    <module>jobs/process/ReservationService/ReservationService/getAvailableCars/reservationservice_getavailablecars_0.1</module>
-    <module>jobs/process/DemoService/DemoServicePortType/DemoServiceOperation/demoserviceporttype_demoserviceoperation_0.1</module>
-    <module>jobs/process/CRMService/CRMService/updateCRMStatus/crmservice_updatecrmstatus_0.1</module>
-    <module>jobs/process/CRMService/CRMService/getCRMStatus/crmservice_getcrmstatus_0.1</module>
-    <module>jobs/process/CRMService/CRMService/getCRMInformation/crmservice_getcrminformation_0.1</module>
-    <module>jobs/routes/copy_of_demoresourceroute_0.1</module>
-    <module>jobs/process/hello_0.1</module>
+    <module>jobs/routes/resttosoap_0.1</module>
+    <module>jobs/routes/soaptorest_0.1</module>
+    <module>jobs/routes/serviceproxy_0.1</module>
+    <module>jobs/routes/simpleloadbalancer_0.1</module>
+    <module>jobs/routes/simplerecipientlist_0.1</module>
+    <module>jobs/routes/vmspringdemo_0.1</module>
+    <module>jobs/services/crmservice_0.1</module>
+    <module>jobs/services/demoservice_0.1</module>
+    <module>jobs/services/reservationservice_0.1</module>
+    <module>code/routines</module>
+    <module>code/beans</module>
   </modules>
   <properties>
     <talend.project.name>CI_ESB_DEMOS</talend.project.name>
     <encoding>UTF-8</encoding>
     <talend.version>7.1.1</talend.version>
-    <talend.docker.tag>${project.version}</talend.docker.tag>
     <maven.deploy.skip>true</maven.deploy.skip>
+    <talend.docker.tag>${project.version}</talend.docker.tag>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>

@@ -5,14 +5,14 @@
   <parent>
     <groupId>org.example.ci_esb_demos</groupId>
     <artifactId>code.Master</artifactId>
-    <version>7.1.1</version>
+    <version>7.1.1-SNAPSHOT</version>
     <relativePath>../../../</relativePath>
   </parent>
   <groupId>org.example.ci_esb_demos.service</groupId>
   <artifactId>DemoService</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>CI_ESB_DEMOS DemoService-0.1.0 (0.1,Services) Kar</name>
+  <name>CI_ESB_DEMOS DemoService-0.1.0-SNAPSHOT (0.1,Services) Kar</name>
   <modules>
     <module>../../process/DemoService/DemoServicePortType/DemoServiceOperation/demoserviceporttype_demoserviceoperation_0.1</module>
     <module>pom-control-bundle.xml</module>

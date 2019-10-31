@@ -5,14 +5,14 @@
   <parent>
     <groupId>org.example.ci_esb_demos</groupId>
     <artifactId>code.Master</artifactId>
-    <version>7.1.1</version>
+    <version>7.1.1-SNAPSHOT</version>
     <relativePath>../../../../</relativePath>
   </parent>
   <groupId>org.example.ci_esb_demos.route</groupId>
   <artifactId>JMStoHTTP-Kar</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>CI_ESB_DEMOS JMStoHTTP-0.1.0 (0.1,Routes) Kar</name>
+  <name>CI_ESB_DEMOS JMStoHTTP-0.1.0-SNAPSHOT (0.1,Routes) Kar</name>
   <modules>
     <module>pom-bundle.xml</module>
     <module>pom-feature.xml</module>
@@ -281,12 +281,12 @@
     <dependency>
       <groupId>org.example.ci_esb_demos.code</groupId>
       <artifactId>routines</artifactId>
-      <version>7.1.1</version>
+      <version>7.1.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.example.ci_esb_demos.bean</groupId>
       <artifactId>beans</artifactId>
-      <version>7.1.1</version>
+      <version>7.1.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <build />

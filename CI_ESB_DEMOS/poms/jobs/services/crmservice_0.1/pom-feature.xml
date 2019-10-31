@@ -5,21 +5,21 @@
   <parent>
     <groupId>org.example.ci_esb_demos.service</groupId>
     <artifactId>CRMService</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.0-SNAPSHOT</version>
     <relativePath>/</relativePath>
   </parent>
   <groupId>org.example.ci_esb_demos.service</groupId>
   <artifactId>CRMService-feature</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>CI_ESB_DEMOS CRMService-0.1.0 (0.1,Services) Feature</name>
+  <name>CI_ESB_DEMOS CRMService-0.1.0-SNAPSHOT (0.1,Services) Feature</name>
   <properties>
     <cloud.publisher.skip>false</cloud.publisher.skip>
     <talend.job.name>CRMService</talend.job.name>
     <talend.job.id>_QDAIMA-cEeGrZ8n2806j_A</talend.job.id>
     <talend.product.version>7.1.1.20191021_0953-patch</talend.product.version>
     <talend.job.version>0.1</talend.job.version>
-    <talend.job.finalName>CRMService-feature-0.1.0</talend.job.finalName>
+    <talend.job.finalName>CRMService-feature-0.1.0-SNAPSHOT</talend.job.finalName>
   </properties>
   <build>
     <plugins>
@@ -80,11 +80,11 @@
                   <file>${basedir}/src/main/resources/feature/feature.xml</file>
                   <groupId>org.example.ci_esb_demos.service</groupId>
                   <artifactId>CRMService-feature</artifactId>
-                  <version>0.1.0</version>
+                  <version>0.1.0-SNAPSHOT</version>
                   <classifier>features</classifier>
                   <packaging>xml</packaging>
-                  <repositoryId>${project.distributionManagement.repository.id}</repositoryId>
-                  <url>${project.distributionManagement.repository.url}</url>
+                  <repositoryId>${project.distributionManagement.snapshotRepository.id}</repositoryId>
+                  <url>${project.distributionManagement.snapshotRepository.url}</url>
                 </configuration>
               </execution>
             </executions>
