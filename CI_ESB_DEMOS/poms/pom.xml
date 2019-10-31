@@ -45,6 +45,7 @@
     <module>jobs/process/CRMService/CRMService/getCRMStatus/crmservice_getcrmstatus_0.1</module>
     <module>jobs/process/CRMService/CRMService/getCRMInformation/crmservice_getcrminformation_0.1</module>
     <module>jobs/routes/copy_of_demoresourceroute_0.1</module>
+    <module>jobs/process/hello_0.1</module>
   </modules>
   <properties>
     <talend.project.name>CI_ESB_DEMOS</talend.project.name>
