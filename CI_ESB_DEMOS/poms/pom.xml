@@ -39,6 +39,7 @@
     <module>jobs/services/reservationservice_0.1</module>
     <module>code/routines</module>
     <module>code/beans</module>
+    <module>jobs/routes/ms_demorestroute_0.1</module>
   </modules>
   <properties>
     <talend.project.name>CI_ESB_DEMOS</talend.project.name>
