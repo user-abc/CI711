@@ -10,9 +10,9 @@
   </parent>
   <groupId>org.example.ci_esb_demos.service</groupId>
   <artifactId>DemoREST-bundle</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.1.0</version>
   <packaging>bundle</packaging>
-  <name>CI_ESB_DEMOS DemoREST-0.1.0-SNAPSHOT (0.1,Job Designs) Bundle</name>
+  <name>CI_ESB_DEMOS DemoREST-0.1.0 (0.1,Job Designs) Bundle</name>
   <properties>
     <item.name>@ItemName@</item.name>
     <bundle.config.export.service>@BundleConfigExportService@</bundle.config.export.service>
@@ -38,9 +38,9 @@
     <talend.project.name.lowercase>ci_esb_demos</talend.project.name.lowercase>
     <talend.job.finalName>${talend.job.name}-bundle-${project.version}</talend.job.finalName>
     <lib.path>${resources.path}/lib</lib.path>
-    <project.distribution-management.repository.id>${project.distributionManagement.snapshotRepository.id}</project.distribution-management.repository.id>
+    <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <talend.job.version>0.1</talend.job.version>
-    <project.distribution-management.repository.url>${project.distributionManagement.snapshotRepository.url}</project.distribution-management.repository.url>
+    <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <talend.job.path>ci_esb_demos</talend.job.path>
     <talend.job.context>Default</talend.job.context>
     <talend.job.stat>true</talend.job.stat>
